@@ -22,7 +22,7 @@ const showSports = async () => {
 
         let img = document.createElement("img");
         section.append(img);
-        img.src ="https://assignment13-tp9j.onrender.com/api/sports/" + sports.img;
+        img.src ="https://assignment13-tp9j.onrender.com/" + sports.img;
 
         let colors = document.createElement("p");
         section.append(colors);
